@@ -1,0 +1,45 @@
+.contain {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.machine-card {
+    border-radius: 4px;
+    border: 2px solid #000000;
+    background-color: #99f2ac;
+    height: 200px;
+    width: 200px;
+    margin: 0 8px 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+}
+
+.machine-card:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+}
+
+.machine-card span {
+    font-weight: 780;
+    font-size: x-large;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.machine-card span.info {
+    margin-top: 10%;   
+}
+
+.machine-card span.estado {
+    margin-top: auto;
+    margin-left: auto;
+    color: #69706b;
+}

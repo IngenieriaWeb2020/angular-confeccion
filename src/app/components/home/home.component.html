@@ -1,0 +1,15 @@
+<div class="contain">
+  <div class="machine-card" *ngFor="let maquina of maquinasNuevas" (click)="clickCard(maquina._id)">
+    <span class="info">Marca: {{maquina.marca}}</span>
+    <span class="info">Modelo: {{maquina.modelo}}</span>
+    <span class="info">Precio: ${{maquina.precioCompra}}</span>
+    <span class="estado">Nueva</span>
+  </div>
+
+  <div class="machine-card" *ngFor="let maquina of maquinasSegunda" (click)="clickCard(maquina._id)">
+    <span class="info">Marca: {{maquina.marca}}</span>
+    <span class="info">Modelo: {{maquina.modelo}}</span>
+    <span class="info">Precio: ${{maquina.precioCompra}}</span>
+    <span class="estado">Segunda</span>
+  </div>
+</div>
